@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main - print all possible combination of 
- * three different digit
+ * main - print all possible combination of three different digit
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -28,6 +27,6 @@ int main(void)
 			}
 		}
 	}
-	purchar('\n');
+	putchar('\n');
 	return (0);
 }
