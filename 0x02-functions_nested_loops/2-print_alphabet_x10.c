@@ -8,12 +8,13 @@
 {
 	char letter;
 	int i;
-	{
+	
 	for (i = 0; i < 10; i++)
-
+	{
 	for (letter = 'a'; letter <= 'z'; letter++)
 
-	putchar(letter);
-}
-	putchar('\n');
+	-putchar(letter);
+
+	-putchar('\n');
+	}
 }
