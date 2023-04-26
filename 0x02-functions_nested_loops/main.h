@@ -9,7 +9,12 @@ int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
 int print_last_digit(int);
+<<<<<<< HEAD
 void times_tables(void);
+=======
+void jack_bauer(void);
+void times_table(void);
+>>>>>>> 78be3eba45e1e6b1b132177a45d4b766f94bb565
 int add(int, int);
 void print_to_98(int n);
 void print_times_table(int n);
