@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -66,3 +66,20 @@ char *str_concat(char *s1, char *s2)
 	return (conct);
 
 }
+
+int main(void)
+{
+	char *si = "Best ";
+	char *s2 = "School";
+	char *conct = str_(conct(si, s2);
+
+			if (conct == NULL)
+			{
+			printf("An error occured during concatenation.\n");
+			return 1;
+			}
+
+			printf("Concatenated string: %s\n", concatenated);
+			free(concatenated);
+			return 0;
+			}
